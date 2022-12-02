@@ -1,23 +1,24 @@
 import React from 'react';
 
 import './App.css';
-import SecondComponent from "./SecondComponent";
-import ThirdComponent from "./ThirdComponent";
-import FourthComponent from "./FouthComponent"
-import error from "./image/404pic.png";
-export default function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-         <SecondComponent/>
-          <img src={error} className="App-logo" alt="logo"/>
-          <img/>
-          <ThirdComponent/>
-          <FourthComponent name = "netflix"/>
-      </header>
-    </div>
-  );
+import './components/errPage/NotFoundPage.css'
+import Header from "./components/Header/Header";
+import NotFoundPage from "./components/errPage/NotFoundPage";
+import Footer from "./components/Footer/Footer";
+import Content from "./components/pages/Content";
 
+export default function App() {
+    const isError = false;
+    if (isError) {
+        return <NotFoundPage/>
+    }
+    return (
+        <div>
+            <Header showButton={!isError}/>
+            <Content/>
+            <Footer/>
+        </div>
+    );
 }
 
 

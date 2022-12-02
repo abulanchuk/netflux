@@ -1,0 +1,12 @@
+.firstWord {
+    font-weight: bold;
+    color: #f65261;
+    font-size: 2vw;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+}
+
+.secondName {
+    color: #f65261;
+    font-size: 2vw;
+}
