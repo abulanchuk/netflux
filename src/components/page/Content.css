@@ -1,0 +1,36 @@
+.content-container {
+    background-image: linear-gradient(0deg, rgb(0, 0, 0) 0, transparent 90%, transparent 90%, rgba(0, 0, 0, .8));
+    margin-top: -3vw;
+    height: 50vw;
+    position: relative;
+}
+
+.content-container__find-movie {
+    font-family: "Bahnschrift Light", "Bahnschrift Light", monospace;
+    font-weight: lighter;
+    color: #FFFFFF;
+    padding-left: 7vw;
+    justify-content: center;
+    font-size: 4vw;
+    padding-top: 10vw;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+}
+
+select option {
+    margin: 40px;
+    background: #232323;
+    color: #ffffff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    border: 0;
+    text-align: center;
+    font-size: 1.2vw;
+}

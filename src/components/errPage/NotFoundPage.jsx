@@ -8,9 +8,9 @@ const NotFoundPage = () => {
         <div>
             <Header/>
             <div className={"errorPage"}>
-                <h1 className={"textErr"}>Page Not Found</h1>
-                <img src={errImage} className="img404" alt="err404"/>
-                <button className={"errorButton"} type="button">GO BACK TO HOME</button>
+                <h1 className={"errorPage__textError"}>Page Not Found</h1>
+                <img src={errImage} className="errorPage__img404" alt="err404"/>
+                <button className={"errorPage__errorButton"} type="button">GO BACK TO HOME</button>
             </div>
             <Footer/>
         </div>

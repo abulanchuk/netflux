@@ -1,0 +1,50 @@
+.dropdown-menu {
+    position: absolute;
+    margin-right: -2vw;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+
+.dropdown-menu__image {
+    width: 2.5vw;
+    height: 2.5vw;
+    background-color: #424242;
+    border-radius: 50%;
+    margin-left: 23vw;
+}
+
+.dropdown-menu__button-img {
+    cursor: pointer;
+    width: 3vw;
+    height: 2.5vw;
+    background-color: unset;
+    border: 0;
+}
+
+.dropdown-menu__menu {
+    position: absolute;
+    padding-top: 2vw;
+    padding-left: 12vw;
+    top: 1vw;
+}
+
+.dropdown-menu__menu > li {
+    cursor: pointer;
+    background-color: #232323;
+
+}
+
+.dropdown-menu__menu > li:hover {
+    background-color: #F65261;
+}
+
+.dropdown-menu__menu > li > button {
+    cursor: pointer;
+    font-size: 1.4vw;
+    width: 11vw;
+    color: #ffffff;
+    background-color: unset;
+    border: 0;
+    margin-bottom: -1vw;
+    text-align: left;
+}

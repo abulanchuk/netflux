@@ -7,7 +7,7 @@
     padding: 5.75vw;
 }
 
-.errorButton {
+.errorPage__errorButton {
     color: #f65261;
     width: 13vw;
     height: 3.5vw;
@@ -21,14 +21,14 @@
     margin-right: auto;
 }
 
-.textErr {
+.errorPage__textError {
     font-family: "Bahnschrift Light", "Bahnschrift Light", monospace;
     font-weight: lighter;
     color: #FFFFFF;
     font-size: 5vh;
 }
 
-.img404 {
+.errorPage__img404 {
     width: 44%;
     height: 34%;
     pointer-events: none;

@@ -1,0 +1,33 @@
+.sorting-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding-top: 3vw;
+}
+
+.sorting-container__movie-genre {
+    font-size: 1.2vw;
+    color: #FFFFFF;
+    background: transparent;
+    border: 0;
+    padding-left: 2.5vw;
+    cursor: pointer;
+}
+
+.sorting-container__sort-by {
+    color: #555555;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    margin-left: 32vw;
+}
+
+.sorting-container__sort-by__drop-menu-date {
+    color: #ffffff;
+    font-size: 1.2vw;
+    background-color: transparent;
+    border: 0;
+    margin-left: 2vw;
+    cursor: pointer;
+}
