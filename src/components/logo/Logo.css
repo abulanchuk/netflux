@@ -1,0 +1,12 @@
+.logo-container__first-word {
+    font-weight: bold;
+    color: #f65261;
+    font-size: 2vw;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+}
+
+.logo-container__second-word {
+    color: #f65261;
+    font-size: 2vw;
+}

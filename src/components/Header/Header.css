@@ -1,0 +1,24 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    position: absolute;
+    padding-top: 3vw;
+}
+
+.header-container__add-movie-button {
+    color: #f65261;
+    width: 15vw;
+    height: 3vw;
+    font-weight: bolder;
+    background: #ffffff;
+    opacity: 0.7;
+    border: 0;
+    font-size: 2vw;
+    margin-left: 55vw;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+

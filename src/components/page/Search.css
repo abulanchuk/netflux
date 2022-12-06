@@ -1,0 +1,28 @@
+.search-container {
+    margin-left: 7vw;
+    margin-top: 1vw;
+}
+
+.search-container__search-field {
+    width: 50vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    opacity: 0.9;
+    background: #232323;
+    text-align: left;
+    border: 0;
+    padding-left: 2vw;
+    color: #ffffff;
+}
+
+.search-container__search-button {
+    width: 15vw;
+    height: 4vw;
+    background: #f65261;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    border-radius: 0.2vw;
+    border: 0;
+    margin-left: 1vw;
+    cursor: pointer;
+}
