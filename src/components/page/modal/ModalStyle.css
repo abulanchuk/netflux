@@ -1,0 +1,151 @@
+.modal-window__h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 3.5vw;
+    padding-left: 1.5vw;
+    text-align: left;
+}
+
+.modal-window__p {
+    font-size: 1.5vw;
+    color: white;
+    font-weight: lighter;
+}
+
+.movie__label {
+
+}
+
+.movie__label__input {
+    background-color: #424242;
+    border: 0;
+    width: 25vw;
+    height: 3vh;
+    margin-left: 1.5vw;
+    color: white;
+    font-size: 1.4vw;
+    font-weight: lighter;
+}
+
+.movie__label__name {
+    color: #f65261;
+    font-size: 1.1vw;
+    font-weight: bolder;
+    margin-left: 1.5vw;
+}
+
+.movie-label__select-genre {
+    background-color: #424242;
+    border: 0;
+    width: 25vw;
+    height: 3vh;
+    margin-left: 1.5vw;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.movie__buttons {
+    padding-top: 2vh;
+    padding-left: 12vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.modal__button-reset {
+    width: 7vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    border-radius: 0.2vw;
+    display: flex;
+    background: transparent;
+    color: #f65261;
+    border-color: #f65261;
+    z-index: 2;
+    cursor: pointer;
+    align-items: center;
+}
+
+.modal__button-submit {
+    width: 7vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    border-radius: 0.2vw;
+    margin-left: 1vw;
+    display: flex;
+    background: #f65261;
+    color: #FFFFFF;
+    border: 0;
+    z-index: 2;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.delete-movie__p {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.modal-window__button--confirm {
+    width: 7vw;
+    height: 3vw;
+    font-size: 1.3vw;
+    border-radius: 0.2vw;
+    margin-top: 4vh;
+    margin-left: 26vw;
+    display: flex;
+    background: #f65261;
+    color: #FFFFFF;
+    border: 0;
+    z-index: 2;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.multiSelectContainer{
+    margin-left: 2vw !important;
+    background: #424242 !important;
+    width: 25vw !important;
+    position: relative!important;
+
+}
+
+.chip{
+    background: transparent !important;
+    font-size:1vw;
+}
+
+.optionListContainer{
+    background: #232323 !important;
+}
+
+.multiSelectContainer li{
+    color: #ffffff !important;
+    position: relative !important;
+    font-size: 1vw;
+}
+
+.multiSelectContainer li:hover{
+    background-color: unset !important;
+}
+
+.highlightOption{
+    background: none !important;
+}
+
+.checkbox{
+    accent-color: #f65261 !important;
+}
+
+.multiSelectContainer ul{
+    position:absolute !important;
+    height: 30vw;
+
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(0.6);
+}

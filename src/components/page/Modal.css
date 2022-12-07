@@ -1,0 +1,40 @@
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 15;
+    backdrop-filter: blur(8px);
+}
+
+.modal {
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: #232323;
+    border-radius: 3px;
+
+}
+
+.modal__header {
+    text-align: right;
+}
+
+.modal__header__closeBtn--close {
+    padding: 10px 12px 0;
+    font-size: 42px;
+    line-height: 0.6;
+    color: #757575;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.modal__content {
+    padding: 0 32px 32px;
+}

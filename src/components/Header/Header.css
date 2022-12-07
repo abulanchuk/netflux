@@ -5,6 +5,8 @@
     align-items: center;
     position: absolute;
     padding-top: 3vw;
+    z-index: 2;
+
 }
 
 .header-container__add-movie-button {
@@ -20,5 +22,9 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.header-container__add-movie-button:hover{
+    opacity: 0.9;
 }
 
