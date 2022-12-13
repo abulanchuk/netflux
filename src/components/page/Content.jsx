@@ -8,7 +8,6 @@ const Content = () => {
     return (
         <div style={{backgroundImage: `url(${background})`}}>
             <div className={"content-container"}>
-                <h1 className={"content-container__find-movie"}>FIND YOUR MOVIE</h1>
                 <Search/>
             </div>
             <Films/>

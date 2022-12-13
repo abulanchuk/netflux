@@ -1,10 +1,10 @@
-import {useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {createPortal} from 'react-dom';
 import "./Modal.css";
 
 const modalRootRef = document.querySelector('#modal-root');
 
-const Modal = ({onClose, children}) => {
+const Modal = ({onClose, children, title, onReset, onSubmit, resetButtonText, submitButtonText}) => {
 
     useEffect(() => {
         const onEscPress = e => {
@@ -40,7 +40,13 @@ const Modal = ({onClose, children}) => {
                 </header>
 
                 <div className={"modal__content"}>
+                    <h1 className={"modal-window__h1"}>{title}</h1>
                     {children}
+                    <div className={"movie__buttons"}>
+                        {resetButtonText && <button className={"modal__button-reset"} onClick={onReset}
+                                                    type="button">{resetButtonText || 'RESET'} </button>}
+                        <button className={"modal__button-submit"} type="button">{submitButtonText || 'SUBMIT'}</button>
+                    </div>
                 </div>
             </div>
         </div>,

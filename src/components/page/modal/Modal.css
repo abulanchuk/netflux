@@ -38,3 +38,18 @@
 .modal__content {
     padding: 0 32px 32px;
 }
+
+.movie__buttons {
+    padding-top: 2vh;
+    padding-left: 12vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-window__h1 {
+    color: white;
+    font-weight: normal;
+    font-size: 3.5vw;
+    padding-left: 1.5vw;
+    text-align: left;
+}

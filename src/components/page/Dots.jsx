@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import './Dots.css';
 import dots from "../../image/3-dots.svg";
 import closeItem from "../../image/close-icon.jpg";
-import Modal from "./Modal";
 import EditMovie from "./modal/EditMovie";
 import DeleteMovie from "./modal/DeleteMovie";
 
@@ -20,28 +19,49 @@ const Dots = () => {
         setIsOpen(false);
     }
 
+    const closeDeleteModal = () => {
+        setIsOpen(false);
+    }
+
+    const closeEditModal = () => {
+        setModalEditActive(false);
+    }
+
+    const openEditModal = () => {
+        setModalEditActive(true);
+    }
+
+    const openDeleteModal = () => {
+        setModalEditActive(true);
+    }
+
     return <div className="dropdown-menu">
         {isOpen ? (
             <>
-                <button className="dropdown-menu__close-button-img" onClick={closeMenu}><img className="dropdown-menu__image" src={closeItem} alt="Cross for menu"/></button>
-            <ul className="dropdown-menu__menu">
-                <li>
-                    <button onClick={() => {
-                        setModalEditActive(true)}} type="button">Edit</button>
-                    {isModalEditActive && <Modal onClose={() => {
-                        setModalEditActive(false)
-                    }}><EditMovie/></Modal>}
-                </li>
-                <li>
-                    <button onClick={() => {
-                        setModalDeleteActive(true)}} type="button">Delete</button>
-                    {isModalDeleteActive && <Modal onClose={() => {
-                        setModalDeleteActive(false)
-                    }}><DeleteMovie/></Modal>}
-                </li>
-            </ul>
+                <ul className="dropdown-menu__menu">
+                    <li className={"dropdown-menu__space"}>
+                        <div className={"dropdown-menu__space-for-button"}>
+                            <button className="dropdown-menu__close-button-img" onClick={closeMenu}><img
+                                className="dropdown-menu__image" src={closeItem} alt="Cross for menu"/></button>
+                        </div>
+                    </li>
+                    <li>
+                        <button onClick={openEditModal}
+                                type="button">Edit
+                        </button>
+                        {isModalEditActive && <EditMovie onclose={closeEditModal}/>}
+
+                    </li>
+                    <li>
+                        <button onClick={openDeleteModal} type="button">Delete
+                        </button>
+                        {isModalDeleteActive && <DeleteMovie onclose={closeDeleteModal}/>}
+                    </li>
+                </ul>
             </>
-        ) : <button className="dropdown-menu__button-img" onClick={openMenu}><img className="dropdown-menu__image" src={dots} alt="Dots-image for menu"/></button>
+        ) : <button className="dropdown-menu__button-img" onClick={openMenu}><img className="dropdown-menu__image"
+                                                                                  src={dots} alt="Dots-image for menu"/>
+        </button>
         }
     </div>
 }
