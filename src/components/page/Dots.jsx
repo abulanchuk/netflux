@@ -32,7 +32,7 @@ const Dots = () => {
     }
 
     const openDeleteModal = () => {
-        setModalEditActive(true);
+        setModalDeleteActive(true);
     }
 
     return <div className="dropdown-menu">

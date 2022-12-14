@@ -4,13 +4,23 @@ import React from "react";
 import "./Films.css";
 import SortingGenre from "./SortingGenre";
 
-const Films = () => {
+
+const Films = (props) => {
     if (dataMocks.length === 0) {
         return (
             <div className={"no-films"}>
                 <SortingGenre/>
                 <div className={"no-films__movie-not-found"}>No Movie Found</div>
             </div>
+        )
+    }
+
+   const sendIndexMovieAndSetModal = (movie) => {
+       props.setDescModalActive(true); // TODO: change name
+       props.setMovie(movie);
+       //setMovie.setSelectedMovie(movie);
+        return (
+            <div></div>
         )
     }
 
@@ -25,7 +35,8 @@ const Films = () => {
                 </div>
                 <div className={"films__movie-container"}>
                     {dataMocks.map(movie => {
-                        return <div className={"films__movie-container__cell"}>
+                        return <div className={"films__movie-container__cell"}
+                                    onClick={ () => sendIndexMovieAndSetModal(movie)}>
                             <Dots/>
                             <img className={"films__movie-container__cell__image-movie"} src={movie.image}
                                  alt="movie-img"/>
