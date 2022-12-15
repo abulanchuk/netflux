@@ -6,14 +6,20 @@ import Modal from "./Modal";
 const AddMovie = ({onClose}) => {
     const [genre, setGenre] = useState(['Crime', 'Documentary', 'Horror', 'Comedy']);
     const handleReset = () => {
-
+        Array.from(document.querySelectorAll("input")).forEach(
+            input => (input.value = "")
+        );
+        this.setState({
+            itemvalues: [{}]
+        });
     }
 
     const handleSubmit = () => {
 
     }
     return (
-        <Modal onClose={onClose} title={'ADD MOVIE'} resetButtonText={'RESET'} submitButtonText={'SUBMIT'} onReset={handleReset} onSubmit={handleSubmit}>
+        <Modal onClose={onClose} title={'ADD MOVIE'} resetButtonText={'RESET'} submitButtonText={'SUBMIT'}
+               onReset={handleReset} onSubmit={handleSubmit}>
             <div className={"add--movie"}>
                 <form>
                     <label className={"movie__label"}>

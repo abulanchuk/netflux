@@ -28,3 +28,14 @@
     opacity: 0.9;
 }
 
+.header-container__loop{
+    display: flex;
+    width: 4vw;
+    height: 4vw;
+    margin-left: 70vw;
+    margin-top: 3vw;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+

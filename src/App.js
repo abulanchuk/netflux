@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './App.css';
 import './components/errPage/NotFoundPage.css'
@@ -9,13 +9,15 @@ import Content from "./components/page/Content";
 
 export default function App() {
     const isError = false;
+    const [isMovieDescriptionOpen, setMovieDescription] = useState(false);
+
     if (isError) {
         return <NotFoundPage/>
     }
     return (
         <div>
-            <Header showButton={!isError}/>
-            <Content/>
+            <Header showButton={!isError} isMovieDescriptionOpen = {isMovieDescriptionOpen} setMovieDescription = {setMovieDescription}/>
+            <Content setMovieDescription = {setMovieDescription} isMovieDescriptionOpen = {isMovieDescriptionOpen}/>
             <Footer/>
         </div>
     );

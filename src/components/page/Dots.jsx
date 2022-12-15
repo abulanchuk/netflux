@@ -21,10 +21,12 @@ const Dots = () => {
 
     const closeDeleteModal = () => {
         setIsOpen(false);
+        closeMenu();
     }
 
     const closeEditModal = () => {
         setModalEditActive(false);
+        closeMenu();
     }
 
     const openEditModal = () => {

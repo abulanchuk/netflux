@@ -5,8 +5,21 @@ import Modal from "./Modal";
 
 const EditMovie = ({onclose}) => {
     const [genre, setGenre] = useState(['Crime', 'Documentary', 'Horror', 'Comedy'])
+    const handleReset = () => {
+        Array.from(document.querySelectorAll("input")).forEach(
+            input => (input.value = "")
+        );
+        this.setState({
+            itemvalues: [{}]
+        });
+    }
+
+    const handleSubmit = () => {
+
+    }
+
     return (
-        <Modal onClose={onclose} title={'EDIT MOVIE'} submitButtonText={'SAVE'} resetButtonText={'RESET'}>
+        <Modal onClose={onclose} title={'EDIT MOVIE'} submitButtonText={'SAVE'} resetButtonText={'RESET'}  onReset={handleReset} onSubmit={handleSubmit}>
             <div className={"edit--movie"}>
                 <form>
                     <label className={"movie__label"}>

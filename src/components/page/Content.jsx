@@ -5,24 +5,21 @@ import Films from "./Films";
 import Search from "./Search";
 import MovieDesc from "./modal/filmdescription/MovieDesc";
 
-const Content = () => {
-    const [isDescModalActive, setDescModalActive] = useState(false);
+const Content = ({setMovieDescription, isMovieDescriptionOpen}) => {
     const [selectedMovie, setSelectedMovie] = useState();
 
-    // const descModalActive = () => {
-    //     setDescModalActive(!isDescModalActive);
-    // }
 
     const setMovie = (x) => {
         setSelectedMovie(x);
+        setMovieDescription(true);
     }
 
     return (
         <div style={{backgroundImage: `url(${background})`}}>
             <div className={"content-container"}>
-                {isDescModalActive ? <MovieDesc movie={selectedMovie}/> : <Search/>}
+                {isMovieDescriptionOpen ? <MovieDesc movie={selectedMovie}/> : <Search/>}
             </div>
-            <Films setDescModalActive={setDescModalActive} setMovie={setMovie}/>
+            <Films setDescModalActive={setMovieDescription} setMovie={setMovie}/>
         </div>
     )
 }
