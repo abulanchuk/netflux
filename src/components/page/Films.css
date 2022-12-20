@@ -55,6 +55,7 @@
 
 .films__movie-container__cell__image-movie {
     height: 40vw;
+    width: 28vw;
 }
 
 .films__movie-container__cell__description-movie {

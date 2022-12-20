@@ -20,20 +20,21 @@ const Dots = () => {
     }
 
     const closeDeleteModal = () => {
-        setIsOpen(false);
-        closeMenu();
+        setModalDeleteActive(false);
     }
 
     const closeEditModal = () => {
         setModalEditActive(false);
-        closeMenu();
     }
 
     const openEditModal = () => {
+        closeMenu();
         setModalEditActive(true);
+
     }
 
     const openDeleteModal = () => {
+        closeMenu();
         setModalDeleteActive(true);
     }
 
@@ -51,13 +52,10 @@ const Dots = () => {
                         <button onClick={openEditModal}
                                 type="button">Edit
                         </button>
-                        {isModalEditActive && <EditMovie onclose={closeEditModal}/>}
-
                     </li>
                     <li>
                         <button onClick={openDeleteModal} type="button">Delete
                         </button>
-                        {isModalDeleteActive && <DeleteMovie onclose={closeDeleteModal}/>}
                     </li>
                 </ul>
             </>
@@ -65,6 +63,8 @@ const Dots = () => {
                                                                                   src={dots} alt="Dots-image for menu"/>
         </button>
         }
+        {isModalEditActive && <EditMovie onclose={closeEditModal}/>}
+        {isModalDeleteActive && <DeleteMovie onclose={closeDeleteModal}/>}
     </div>
 }
 

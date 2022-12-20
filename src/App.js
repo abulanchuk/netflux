@@ -9,15 +9,15 @@ import Content from "./components/page/Content";
 
 export default function App() {
     const isError = false;
-    const [isMovieDescriptionOpen, setMovieDescription] = useState(false);
+    const [selectedMovie, setSelectedMovie] = useState(null);
 
     if (isError) {
         return <NotFoundPage/>
     }
     return (
         <div>
-            <Header showButton={!isError} isMovieDescriptionOpen = {isMovieDescriptionOpen} setMovieDescription = {setMovieDescription}/>
-            <Content setMovieDescription = {setMovieDescription} isMovieDescriptionOpen = {isMovieDescriptionOpen}/>
+            <Header showButton={!isError} selectedMovie = {selectedMovie} setSelectedMovie = {setSelectedMovie}/>
+            <Content selectedMovie = {selectedMovie} setSelectedMovie = {setSelectedMovie}/>
             <Footer/>
         </div>
     );
