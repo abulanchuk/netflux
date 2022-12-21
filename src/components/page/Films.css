@@ -49,10 +49,13 @@
     display: flex;
     flex-direction: column;
     margin: 2vw 1vw 2vw 1vw;
+    position: relative;
+    cursor: pointer;
 }
 
 .films__movie-container__cell__image-movie {
     height: 40vw;
+    width: 28vw;
 }
 
 .films__movie-container__cell__description-movie {

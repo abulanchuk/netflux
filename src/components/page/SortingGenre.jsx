@@ -10,29 +10,18 @@ class SortingGenre extends React.Component {
         }
         return (
             <div className={"sorting-container"}>
-                <ul>
-                    <li>
-                        <button className="sorting-container__movie-genre" type="button">ALL</button>
-                    </li>
-                    <li>
-                        <button className="sorting-container__movie-genre" type="button">DOCUMENTARY</button>
-                    </li>
-                    <li>
-                        <button className="sorting-container__movie-genre" type="button">COMEDY</button>
-                    </li>
-                    <li>
-                        <button className="sorting-container__movie-genre" type="button">HORROR</button>
-                    </li>
-                    <li>
-                        <button className="sorting-container__movie-genre" type="button">CRIME</button>
-                    </li>
-                </ul>
+                <button className="sorting-container__movie-genre" type="button">ALL</button>
+                <button className="sorting-container__movie-genre" type="button">DOCUMENTARY</button>
+                <button className="sorting-container__movie-genre" type="button">COMEDY</button>
+                <button className="sorting-container__movie-genre" type="button">HORROR</button>
+                <button className="sorting-container__movie-genre" type="button">CRIME</button>
                 <ul>
                     <li className={"sorting-container__sort-by"}>SORT BY</li>
                     <li>
                         <select className={"sorting-container__sort-by__drop-menu-date"}>
                             {movieYear}
                         </select>
+                        <div className={"sorting-container__sort-by__drop-menu-date__arrow"}></div>
                     </li>
                 </ul>
             </div>

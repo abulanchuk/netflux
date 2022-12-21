@@ -3,15 +3,16 @@ import "./Content.css";
 import background from "../../image/background.jpg";
 import Films from "./Films";
 import Search from "./Search";
+import MovieDesc from "./modal/filmdescription/MovieDesc";
 
-const Content = () => {
+const Content = ({selectedMovie, setSelectedMovie}) => {
+
     return (
         <div style={{backgroundImage: `url(${background})`}}>
             <div className={"content-container"}>
-                <h1 className={"content-container__find-movie"}>FIND YOUR MOVIE</h1>
-                <Search/>
+                {selectedMovie ? <MovieDesc movie={selectedMovie}/> : <Search/>}
             </div>
-            <Films/>
+            <Films  setMovie={setSelectedMovie}/>
         </div>
     )
 }

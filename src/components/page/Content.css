@@ -1,18 +1,8 @@
 .content-container {
-    background-image: linear-gradient(0deg, rgb(0, 0, 0) 0, transparent 90%, transparent 90%, rgba(0, 0, 0, .8));
+    background-image: linear-gradient(180deg, rgb(0, 0, 0) 0, transparent 60%, transparent 60%, rgba(0, 0, 0, .8));
     margin-top: -3vw;
     height: 50vw;
     position: relative;
-}
-
-.content-container__find-movie {
-    font-family: "Bahnschrift Light", "Bahnschrift Light", monospace;
-    font-weight: lighter;
-    color: #FFFFFF;
-    padding-left: 7vw;
-    justify-content: center;
-    font-size: 4vw;
-    padding-top: 10vw;
 }
 
 ul {

@@ -1,15 +1,152 @@
-[{"id":1,"name":"Poor Us: An Animated History of Poverty","type":"Animation","price":"$7.95","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":2,"name":"Gentle Breeze in the Village, A (Tennen kokekkô) ","type":"Drama","price":"$2.37","image":"https://i.ibb.co/sH6ZXtX/entre-facas.jpg","year": "2022"},
-  {"id":3,"name":"Passion in the Desert","type":"Adventure","price":"$6.20","image":"https://i.ibb.co/NZVD24x/shrek.jpg","year": "2022"},
-  {"id":4,"name":"Last Play at Shea","type":"Musical","price":"$8.38","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":5,"name":"Story of a Prostitute","type":"Drama","price":"$8.93","image":"https://i.ibb.co/sH6ZXtX/entre-facas.jpg","year": "2022"},
-  {"id":6,"name":"Food of the Gods, The","type":"Horror","price":"$2.08","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":7,"name":"Curse of Frankenstein, The","type":"Horror","price":"$9.81","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":8,"name":"Heartlands","type":"Comedy","price":"$2.96","image":"https://i.ibb.co/NZVD24x/shrek.jpg","year": "2022"},
-  {"id":9,"name":"Face of Another","type":"Drama","price":"$9.59","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":10,"name":"Godzilla vs. Mechagodzilla","type":"Action","price":"$7.47","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":11,"name":"Goonies, The","type":"Children","price":"$0.25","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":12,"name":"Jack and the Cuckoo-Clock Heart","type":"Adventure","price":"$5.33","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"},
-  {"id":13,"name":"Entere Facas e Sergedos","type":"Action","price":"$1.16","image":"https://i.ibb.co/sH6ZXtX/entre-facas.jpg","year": "2022"},
-  {"id":14,"name":"Marked Woman","type":"Children","price":"$2.56","image":"https://i.ibb.co/NZVD24x/shrek.jpg","year": "2022"},
-  {"id":15,"name":"Punchline","type":"Comedy","price":"$10.00","image":"https://i.ibb.co/Pmgskzh/img-movie.jpg","year": "2022"}]
+[
+  {
+    "id": 1,
+    "name": "Poor Us",
+    "type": "Animation",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2020",
+    "rating": "4.5",
+    "time": "175",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 2,
+    "name": "Gentle Breeze in the Village",
+    "type": "Drama",
+    "image": "https://i.ibb.co/sH6ZXtX/entre-facas.jpg",
+    "year": "2018",
+    "rating": "4.3",
+    "time": "165",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 3,
+    "name": "Passion in the Desert",
+    "type": "Adventure",
+    "image": "https://i.ibb.co/NZVD24x/shrek.jpg",
+    "year": "2021",
+    "rating": "4.9",
+    "time": "145",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 4,
+    "name": "Last Play at Shea",
+    "type": "Musical",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2022",
+    "rating": "5.0",
+    "time": "285",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 5,
+    "name": "Story of a Prostitute",
+    "type": "Drama",
+    "image": "https://i.ibb.co/sH6ZXtX/entre-facas.jpg",
+    "year": "2018",
+    "rating": "3.4",
+    "time": "111",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 6,
+    "name": "Food of the Gods, The",
+    "type": "Horror",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2012",
+    "rating": "2.4",
+    "time": "143",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 7,
+    "name": "Curse of Frankenstein, The",
+    "type": "Horror",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2017",
+    "rating": "4.5",
+    "time": "172",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 8,
+    "name": "Heartlands",
+    "type": "Comedy",
+    "image": "https://i.ibb.co/NZVD24x/shrek.jpg",
+    "year": "2021",
+    "rating": "3.5",
+    "time": "145",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 9,
+    "name": "Face of Another",
+    "type": "Drama",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2022",
+    "rating": "2.6",
+    "time": "149",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 10,
+    "name": "Godzilla vs. Mechagodzilla",
+    "type": "Action",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2016",
+    "rating": "3.7",
+    "time": "185",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 11,
+    "name": "Goonies",
+    "type": "Children",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2019",
+    "rating": "4.7",
+    "time": "125",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 12,
+    "name": "Jack and the Cuckoo-Clock Heart",
+    "type": "Adventure",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2022",
+    "rating": "4.9",
+    "time": "140",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 13,
+    "name": "Entere Facas e Sergedos",
+    "type": "Action",
+    "image": "https://i.ibb.co/sH6ZXtX/entre-facas.jpg",
+    "year": "2020",
+    "rating": "4.0",
+    "time": "145",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 14,
+    "name": "Marked Woman",
+    "type": "Children",
+    "image": "https://i.ibb.co/NZVD24x/shrek.jpg",
+    "year": "2021",
+    "rating": "4.2",
+    "time": "146",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  },
+  {
+    "id": 15,
+    "name": "Punchline",
+    "type": "Comedy",
+    "image": "https://i.ibb.co/Pmgskzh/img-movie.jpg",
+    "year": "2022",
+    "rating": "3.5",
+    "time": "122",
+    "description": "The Minions are small, yellow, capsule shaped creatures, who have one or two eyes. They are the signature characters of the Despicable Me series. They bring much of the comedy in the film, and they are known as the scene-stealer of the movie."
+  }
+]

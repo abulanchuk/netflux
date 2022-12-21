@@ -20,7 +20,7 @@
     color: #555555;
     font-size: 1.2vw;
     font-weight: bolder;
-    margin-left: 32vw;
+    margin-left: 30vw;
 }
 
 .sorting-container__sort-by__drop-menu-date {
@@ -30,4 +30,17 @@
     border: 0;
     margin-left: 2vw;
     cursor: pointer;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.sorting-container__sort-by__drop-menu-date__arrow{
+    border-left: 0.7vw solid transparent;
+    border-right: 0.7vw solid transparent;
+    border-top: 0.7vw solid #f65261;
+    margin-left: 46.5vw;
+    position: absolute;
+    top :3.5vw;
 }

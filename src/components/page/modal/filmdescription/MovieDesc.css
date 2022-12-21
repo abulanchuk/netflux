@@ -1,0 +1,70 @@
+.movie-description {
+    display: flex;
+}
+
+.movie-description__detail {
+    padding-left: 5vw;
+    padding-top: 10vw;
+}
+
+.movie-description__detail--align {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+}
+
+.movie-description__detail__name {
+    color: white;
+    font-weight: lighter;
+}
+
+.movie-description__detail__rating {
+    color: #2a752a;
+    font-size: 3.7vw;
+    font-weight: bolder;
+    padding-left: 1vw;
+    padding-top: 0.75vw;
+}
+
+.movie-description__pic {
+    height: 35vw;
+    width: 25vw;
+    padding-top: 10vw;
+    padding-left: 3vw;
+}
+
+.movie-description__detail__yt {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vw;
+
+}
+
+.movie-description__detail__yt__year {
+    color: #f65261;
+}
+
+.movie-description__detail__yt__time {
+    color: #f65261;
+    padding-left: 2vw;
+}
+
+.movie-description__detail__description {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: lighter;
+}
+
+.movie-description__detail__circle-with-rating--align{
+    display: flex;
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+
+.movie-description__detail__circle{
+    display: flex;
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+
+}
