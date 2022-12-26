@@ -1,5 +1,3 @@
-import {SET_ALL_MOVIES} from "./store/movies/actions";
-
 const MOVIE = {
     ADD_MOVIE: "ADD_MOVIE",
     SORT_MOVIE: "SORT_MOVIE",

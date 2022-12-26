@@ -1,4 +1,3 @@
-//import dataMocks from "../../mocks/MOCK_DATA.json";
 import Dots from "./Dots";
 import React from "react";
 import "./Films.css";
