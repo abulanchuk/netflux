@@ -7,7 +7,7 @@ import {useSelector} from "react-redux";
 
 const Films = ({setMovie}) => {
 
-    let listOfMovies = useSelector(state => state.movies.allMovies);
+    let listOfMovies = useSelector(state => state.movies.currentMovies);
     if (listOfMovies === undefined) {
         listOfMovies = [];
     }

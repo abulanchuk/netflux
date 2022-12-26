@@ -1,16 +1,16 @@
 import MOVIE from "../../constants";
 
 const initialState = {
-    allMovies: []
+    allMovies: [],
+    currentMovies: []
 }
 
 
 export const movieReducer = (state = initialState, action) => {
     switch (action.type) {
         case MOVIE.SET_ALL_MOVIES:
-            console.log("Setting ", action.payload);
             return {
-                ...state, allMovies: action.payload
+                ...state, allMovies: action.payload, currentMovies:action.payload
             }
         case MOVIE.ADD_MOVIE:
             let allMovies = state.allMovies.slice(); // TODO: allMovies is undefined
@@ -18,6 +18,10 @@ export const movieReducer = (state = initialState, action) => {
 
             return {
                 ...state, allMovies: allMovies
+            }
+        case MOVIE.FILTER_MOVIES_BY_GENRE:
+            return {
+                ...state, currentMovies: action.payload
             }
 
         default:

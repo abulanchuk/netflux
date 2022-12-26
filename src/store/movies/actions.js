@@ -15,3 +15,10 @@ export const addMovie = (movie) => (
         payload: movie
     }
 )
+
+export const filterMoviesByGenre = (moviesJson) => (
+    {
+        type: MOVIE.FILTER_MOVIES_BY_GENRE,
+        payload: moviesJson
+    }
+)

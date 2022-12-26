@@ -5,7 +5,6 @@ import Modal from "./Modal";
 import MOVIE from "../../../constants";
 import {store} from "../../../store/Store";
 import {addMovie, setAllMovies} from "../../../store/movies/actions";
-import axios from "axios";
 
 const AddMovie = ({onClose}) => {
     const [genre, setGenre] = useState(MOVIE.GENRES);
