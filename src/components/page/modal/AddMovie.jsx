@@ -2,9 +2,10 @@ import React, {useState} from "react";
 import "./ModalStyle.css";
 import {Multiselect} from "multiselect-react-dropdown";
 import Modal from "./Modal";
+import MOVIE from "../../../constants";
 
 const AddMovie = ({onClose}) => {
-    const [genre, setGenre] = useState(['Crime', 'Documentary', 'Horror', 'Comedy']);
+    const [genre, setGenre] = useState(MOVIE.GENRES);
     const handleReset = () => {
         Array.from(document.querySelectorAll("input")).forEach(
             input => (input.value = "")
