@@ -1,13 +1,12 @@
 import React from "react";
 import "./SortingGenre.css";
 import {useSelector} from "react-redux";
-import MOVIE from "../../constants";
+
 import {store} from "../../store/Store";
 import {filterMoviesByGenre, setAllMovies} from "../../store/movies/actions";
 
-// class SortingGenre extends React.Component {
 const SortingGenre = () => {
-    // render() {
+
     let movieYear = [];
     movieYear.push(<option value={1}>RELEASE DATE</option>)
     for (let n = 2022; n >= 2010; n--) {
@@ -54,7 +53,6 @@ const SortingGenre = () => {
             </ul>
         </div>
     )
-    // }
 }
 
 export default SortingGenre;

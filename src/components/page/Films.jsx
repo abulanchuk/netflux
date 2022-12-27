@@ -15,9 +15,9 @@ const Films = ({setMovie}) => {
 
     if (listOfMovies.length === 0) {
         return (
-            <div className={"no-films"}>
+            <div className={"no-films__movie-not-found"}>
                 <SortingGenre/>
-                <div className={"no-films__movie-not-found"}>No Movie Found</div>
+                <div className={"movie-not-found"}>No Movie Found</div>
             </div>
         )
     }
