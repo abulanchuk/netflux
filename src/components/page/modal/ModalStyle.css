@@ -38,36 +38,6 @@
     cursor: pointer;
 }
 
-.modal__button-reset {
-    width: 7vw;
-    height: 3vw;
-    font-size: 1.3vw;
-    border-radius: 0.2vw;
-    display: flex;
-    background: transparent;
-    color: #f65261;
-    border-color: #f65261;
-    z-index: 1;
-    cursor: pointer;
-    align-items: center;
-}
-
-.modal__button-submit {
-    width: 7vw;
-    height: 3vw;
-    font-size: 1.3vw;
-    border-radius: 0.2vw;
-    margin-left: 1vw;
-    display: flex;
-    background: #f65261;
-    color: #FFFFFF;
-    border: 0;
-    z-index: 1;
-    cursor: pointer;
-    align-items: center;
-    text-align: center;
-}
-
 .delete-movie__p {
     color: white;
     font-size: 1.5vw;

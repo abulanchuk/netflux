@@ -45,7 +45,7 @@ const Modal = ({onClose, children, title, onReset, onSubmit, resetButtonText, su
                     <div className={"movie__buttons"}>
                         {resetButtonText && <button className={"modal__button-reset"} onClick={onReset}
                                                     type="button">{resetButtonText || 'RESET'} </button>}
-                        <button className={"modal__button-submit"} type="button">{submitButtonText || 'SUBMIT'}</button>
+                        <button className={"modal__button-submit"} onClick={onSubmit} type="button">{submitButtonText || 'SUBMIT'}</button>
                     </div>
                 </div>
             </div>
