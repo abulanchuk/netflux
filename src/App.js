@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import NotFoundPage from "./components/errPage/NotFoundPage";
 import Footer from "./components/Footer/Footer";
 import Content from "./components/page/Content";
+
 import {store} from "./store/Store";
 import MOVIE from "./constants";
 import {SET_ALL_MOVIES, setAllMovies} from "./store/movies/actions";
