@@ -42,10 +42,10 @@ const AddMovie = ({onClose}) => {
         setMovie(newMovie)
     }
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
         store.dispatch(addMovie(movie));
 
-        fetch(MOVIE.MOVIE_URL, {
+       await fetch(MOVIE.MOVIE_URL, {
             method: 'POST', // or 'PUT'
             headers: {
                 'Content-Type': 'application/json',
