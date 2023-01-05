@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`First snapshot test  1`] = `
+<div
+  className="header-container"
+>
+  <div
+    className="logo-container"
+  >
+    <div>
+      <span
+        className="logo-container__first-word"
+      >
+        netflix
+      </span>
+      <span
+        className="logo-container__second-word"
+      >
+        roulette
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Second snapshot test  1`] = `
+<div
+  className="header-container"
+>
+  <div
+    className="logo-container"
+  >
+    <div>
+      <span
+        className="logo-container__first-word"
+      >
+        netflix
+      </span>
+      <span
+        className="logo-container__second-word"
+      >
+        roulette
+      </span>
+    </div>
+  </div>
+  <button
+    className="header-container__add-movie-button"
+    onClick={[Function]}
+    type="button"
+  >
+    +ADD MOVIE
+  </button>
+</div>
+`;
